@@ -1,0 +1,24 @@
+{
+  "name": "zero-sum-matrix-game",
+  "version": "1.0.0",
+  "description": "Local two-player finite zero-sum matrix game mixed strategy solver",
+  "type": "module",
+  "bin": {
+    "zsg": "./dist/src/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "tsx src/server.ts",
+    "demo": "tsx demo/run.ts",
+    "test": "node --import tsx --test tests/game.test.ts tests/api.test.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "keywords": ["zero-sum-game", "linear-programming", "sqlite", "typescript"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}
