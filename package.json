@@ -1,0 +1,22 @@
+{
+  "name": "zero-sum-matrix-solver",
+  "version": "1.0.0",
+  "description": "Local two-player finite zero-sum matrix game mixed strategy solver",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "tsx src/server.ts",
+    "cli": "tsx src/cli.ts",
+    "demo": "tsx test/e2e-demo.ts",
+    "test": "tsx --test test/*.test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

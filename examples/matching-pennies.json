@@ -1,0 +1,7 @@
+{
+  "name": "matching-pennies",
+  "payoffUnit": "utility",
+  "rowActions": ["heads", "tails"],
+  "columnActions": ["heads", "tails"],
+  "matrix": [[1, -1], [-1, 1]]
+}
